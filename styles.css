@@ -1,0 +1,443 @@
+/* styles.css */
+
+༗body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+.dark-header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.dark-header img {
+  max-width: 100px; /* Adjust the maximum width as needed */
+  height: auto;
+  margin-right: 20px; /* Add margin to the right of the logo */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 3rem;
+}
+
+.nav-link{
+  font-size: 19px;
+
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover{
+  color: #f71a1a;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  font: size 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Hamburger Icon for Smaller Screens */
+.mobile-menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.mobile-menu-icon span {
+  height: 3px;
+  width: 25px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+  }
+
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .mobile-nav a {
+    padding: 15px;
+    display: block;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* styles.css */
+
+/* Header styles as provided in the previous response */
+
+.dark-introduction {
+  background-color: #222;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.introduction-content {
+  text-align: center;
+}
+
+.introduction-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.introduction-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.introduction-content p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #ff6600; /* Orange color, adjust as needed */
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #e55d00; /* Darker shade of orange on hover */
+}
+.dark-about-me {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-text {
+  flex: 2;
+}
+
+.about-me-text h2,
+.about-me-skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-me-skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-me-skills li {
+  margin-bottom: 10px;
+}
+
+.about-me-photo {
+  flex: 1;
+}
+
+.about-me-photo img {
+  width: 100%;
+  border-radius: 10px;
+}.dark-skills {
+  background-color: #222;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.skills-content {
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  width: 150px;
+  margin: 10px;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: #ff6600; /* Orange color, adjust as needed */
+  border-radius: 5px;
+}
+.dark-portfolio {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-item {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Adjust CTA button styling if needed */
+.dark-resume {
+  background-color: #222;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.dark-resume p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.work-experience {
+  margin-top: 30px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h4 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.dark-testimonials {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.dark-contact {
+  background-color: #222;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.contact-item {
+  width: 300px;
+  margin: 20px;
+}
+
+.contact-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  font-size: 1rem;
+}
+.dark-blog {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.blog-posts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.blog-post {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.blog-post img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.blog-post h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.dark-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact,
+.footer-social {
+  width: 45%;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+}
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
